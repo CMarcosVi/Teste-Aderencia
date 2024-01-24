@@ -29,7 +29,7 @@ header{
 .hamburuer-nav::after{
     content: "";
     position: absolute;
-    top: 8px;
+    top: 10px;
     display: flex;
     flex-direction: column;
     height: 5px;
@@ -268,7 +268,7 @@ footer{
         text-align: justify;
         color: #164f25;
         padding: 5rem 0rem 3rem 0rem ;
-        background-image: url("/img/Group\ 50.png"); 
+        background-image: url("./img/Group\ 50.png"); 
     }
     .container-response1 > h1 {
         padding: 0rem 0rem 0rem 1rem;
