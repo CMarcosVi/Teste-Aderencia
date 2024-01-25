@@ -220,6 +220,52 @@ footer{
     padding: .5rem;
     height: 25px;
 }
+.animatedDisabled{
+    opacity: 0;
+}
+.able1,.able2,.able3,.able4,.able5,.able6,.able7,.able8,.able9,.able10,.able11,.able12,.able13,.able14,.able15,.able16{
+    opacity: 1;
+}
+.able1,.able3,.able7,.able9,.able12{
+    animation: animation1 2.5s ease;
+}
+.able2,.able4,.able5,.able6,.able15{
+    animation: animation2 2.5s ease;
+}
+.able8,.able10,.able11,.able13,.able14,.able16{
+    animation: animation3 2.5s ease;
+}
+
+@keyframes animation1{
+    from{
+        opacity: 0;
+        transform: translateX(-60px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes animation2{
+    from{
+        opacity: 0;
+        transform: translate3d(26px, -30px, -75px);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0);
+    }
+}
+@keyframes animation3{
+    from{
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
 @media only screen and (max-width: 710px){
     .container-text2{
